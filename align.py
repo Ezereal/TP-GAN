@@ -96,6 +96,6 @@ if __name__ == '__main__':
         with open('./solved_data/'+f.replace('png','5pt'),'a') as ff:
             for point in trans_pt:
                 ff.write(str(point[0])+','+str(point[1])+'\n')
-                cv2.circle(img_cropped, (int(point[0]),int(point[1])),2,(255,255,0),3)
+                #cv2.circle(img_cropped, (int(point[0]),int(point[1])),2,(255,255,0),3)
         #cv2.imwrite(f,img_cropped)
 
